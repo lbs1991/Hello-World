@@ -1,2 +1,10 @@
-(base) C:\pyspace\helloworld>git reset --soft HEAD~1
+******************WIN10******************
+
+git reset --soft HEAD~1
 https://www.cnblogs.com/lfxiao/p/9378763.html
+
+git rm -rf .idea
+git reset .idea
+
+git config --global core.editor "'C:\Program Files (x86)\Sublime Text3\sublime_text.exe' -n -w"
+
