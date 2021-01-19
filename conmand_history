@@ -6,5 +6,17 @@ https://www.cnblogs.com/lfxiao/p/9378763.html
 git rm -rf .idea
 git reset .idea
 
+git config -l
 git config --global core.editor "'C:\Program Files (x86)\Sublime Text3\sublime_text.exe' -n -w"
+git checkout 8f87e7441ab8a0add704eefeafff452a45a38c5d
+#either not added it yet (check git status/Untracked files) or ignored it
+#(using .gitignore or .git/info/exclude files)
+#You can verify it using following git command, that lists all ignored files:
+git ls-files --others -i --exclude-standard
+
+git branch new + git checkout new = git checkout -b new
+git push --set-upstream origin new
+git branch --set-upstream-to=origin/new
+git branch --unset-upstream master
+
 
